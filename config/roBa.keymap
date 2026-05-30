@@ -114,6 +114,10 @@
 &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BACKSLASH
 &trans                      &trans           &trans           &trans           &trans        &trans                       &trans          &trans                                                                            &kp PIPE
             >;
+
+            sensor-bindings =
+                <&inc_dec_kp 0 0>,
+                <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         MOUSE {
