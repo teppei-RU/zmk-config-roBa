@@ -86,10 +86,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W    &kp E     &kp R               &kp T                                                &kp Y                    &kp U  &kp I      &kp O      &kp BACKSPACE
-&kp A             &kp S    &kp D     &kp F               &kp G                  &kp H            &kp J        &kp H                    &kp K  &mkp LCLK  &kp MINUS  &kp LEFT_SHIFT
-&kp Z             &kp X    &kp C     &kp V               &kp B                  &kp N            &kp M        &kp A                    &kp J  &kp L      &kp P      &kp PERIOD
-&kp LEFT_CONTROL  &kp TAB  &hankaku  &lt 1 LEFT_CONTROL  &lt 2 INTERNATIONAL_4  &lt 3 SPACE      &lt 4 SPACE  &mt RIGHT_CONTROL ENTER                               &to 0
+&kp Q           &kp W    &kp E     &kp R               &kp T                                                         &kp Y                    &kp U  &kp I      &kp O      &kp BACKSPACE
+&kp A           &kp S    &kp D     &kp F               &kp G                  &kp H            &kp J                 &kp H                    &kp K  &mkp LCLK  &kp MINUS  &kp PERIOD
+&kp Z           &kp X    &kp C     &kp V               &kp B                  &kp N            &kp M                 &kp A                    &kp J  &kp L      &kp P      &kp PERIOD
+&kp DOWN_ARROW  &kp TAB  &hankaku  &lt 1 LEFT_CONTROL  &lt 2 INTERNATIONAL_4  &lt 3 SPACE      &mt LEFT_SHIFT SPACE  &mt RIGHT_CONTROL ENTER                               &to 0
             >;
         };
 
@@ -121,10 +121,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &kp UP_ARROW  &kp PG_UP      &kp UP_ARROW
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB1      &mkp MB3       &mkp MB2
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &kp DOWN      &kp PAGE_DOWN  &kp DOWN
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                         &trans
+&trans  &trans  &trans  &trans  &trans                        &trans    &trans    &kp UP_ARROW  &kp PG_UP      &kp UP_ARROW
+&trans  &trans  &trans  &trans  &trans  &trans      &trans    &trans    &mkp MB1  &mkp MB1      &mkp MB3       &mkp MB2
+&trans  &trans  &trans  &trans  &trans  &trans      &trans    &trans    &trans    &kp DOWN      &kp PAGE_DOWN  &kp DOWN
+&trans  &trans  &trans  &trans  &trans  &trans      &mkp MB4  &mkp MB5                                         &trans
             >;
         };
 
